@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 2a7b81b206a2b5343b9d3ba0eb88e2be
+timeCreated: 1427240652
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Astro transparente_0
+    21300002: Astro transparente_1
+    21300004: Astro transparente_3
+    21300006: Astro transparente_4
+    21300008: Astro transparente_5
+    21300010: Astro transparente_6
+    21300012: Astro transparente_7
+    21300014: Astro transparente_8
+    21300016: Astro transparente_9
+    21300018: Astro transparente_10
+    21300020: Astro transparente_11
+    21300022: Astro transparente_12
+    21300024: Astro transparente_13
+    21300026: Astro transparente_14
+    21300028: Astro transparente_15
+    21300030: Astro transparente_16
+    21300032: Astro transparente_17
+    21300034: Astro transparente_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Astro transparente_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 403
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 403
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 268
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_5
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 268
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 268
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_7
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 268
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 131
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_10
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 130
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_11
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 131
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_12
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 131
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_15
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_17
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 125
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Astro transparente_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 268
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

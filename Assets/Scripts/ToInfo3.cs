@@ -6,7 +6,7 @@ public class ToInfo3 : MonoBehaviour{
 	public GameObject menu;
 	
 	void OnMouseDown(){
-		Application.OpenURL ("http://www.google.com");
+		Application.OpenURL ("http://mars.nasa.gov/allaboutmars/");
 		menu.SetActive (false);
 	}
 }

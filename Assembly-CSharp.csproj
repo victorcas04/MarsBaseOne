@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{63C1CB35-7449-68D2-38BB-82FC9110004F}</ProjectGuid>
+	<ProjectGuid>{F6513EF2-7E5A-ED2C-9C9A-7D32AB3F645A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_WEBPLAYER;ENABLE_SUBSTANCE;WEBPLUG;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,23 +46,71 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AstronautMenu.cs" />
+     <Compile Include="Assets\Scripts\BlockMenu.cs" />
+     <Compile Include="Assets\Scripts\BuildingMenu.cs" />
+     <Compile Include="Assets\Scripts\CharCollider.cs" />
+     <Compile Include="Assets\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\Scripts\CopperDecrease.cs" />
+     <Compile Include="Assets\Scripts\CopperIncrease.cs" />
+     <Compile Include="Assets\Scripts\DigButton.cs" />
+     <Compile Include="Assets\Scripts\EarthMenu.cs" />
+     <Compile Include="Assets\Scripts\Exit.cs" />
+     <Compile Include="Assets\Scripts\ExplorationMenu.cs" />
+     <Compile Include="Assets\Scripts\ExplorationTunel1.cs" />
+     <Compile Include="Assets\Scripts\ExplorationTunel2.cs" />
+     <Compile Include="Assets\Scripts\ExplorationTunel3.cs" />
+     <Compile Include="Assets\Scripts\ExplorationTunel4.cs" />
+     <Compile Include="Assets\Scripts\FoodDecrease.cs" />
+     <Compile Include="Assets\Scripts\FoodIncrease.cs" />
+     <Compile Include="Assets\Scripts\Global.cs" />
+     <Compile Include="Assets\Scripts\HydrogenDecrease.cs" />
+     <Compile Include="Assets\Scripts\HydrogenIncrease.cs" />
+     <Compile Include="Assets\Scripts\IntroText.cs" />
+     <Compile Include="Assets\Scripts\IronDecrease.cs" />
+     <Compile Include="Assets\Scripts\IronIncrease.cs" />
+     <Compile Include="Assets\Scripts\NewGameIntroText.cs" />
+     <Compile Include="Assets\Scripts\NotImplemented.cs" />
+     <Compile Include="Assets\Scripts\NotImplemented1.cs" />
+     <Compile Include="Assets\Scripts\NotImplemented2.cs" />
+     <Compile Include="Assets\Scripts\NotImplemented3.cs" />
+     <Compile Include="Assets\Scripts\NotImplemented4.cs" />
      <Compile Include="Assets\Scripts\OpenMenu.cs" />
+     <Compile Include="Assets\Scripts\OxygenDecrease.cs" />
+     <Compile Include="Assets\Scripts\OxygenIncrease.cs" />
      <Compile Include="Assets\Scripts\PreMenu.cs" />
+     <Compile Include="Assets\Scripts\RecolectButton.cs" />
+     <Compile Include="Assets\Scripts\SettlersDecrease.cs" />
+     <Compile Include="Assets\Scripts\SettlersIncrease.cs" />
+     <Compile Include="Assets\Scripts\TimeController.cs" />
+     <Compile Include="Assets\Scripts\ToControlls.cs" />
      <Compile Include="Assets\Scripts\ToInfo1.cs" />
      <Compile Include="Assets\Scripts\ToInfo2.cs" />
      <Compile Include="Assets\Scripts\ToInfo3.cs" />
      <Compile Include="Assets\Scripts\ToInfo4.cs" />
+     <Compile Include="Assets\Scripts\ToLevels.cs" />
      <Compile Include="Assets\Scripts\ToMap1.cs" />
      <Compile Include="Assets\Scripts\ToMap2.cs" />
      <Compile Include="Assets\Scripts\ToMap3.cs" />
      <Compile Include="Assets\Scripts\ToMap4.cs" />
+     <Compile Include="Assets\Scripts\ToMenu.cs" />
+     <Compile Include="Assets\Scripts\ToNewGame.cs" />
+     <Compile Include="Assets\Scripts\ToOptions.cs" />
      <Compile Include="Assets\Scripts\ToTunel1.cs" />
      <Compile Include="Assets\Scripts\ToTunel2.cs" />
      <Compile Include="Assets\Scripts\ToTunel3.cs" />
      <Compile Include="Assets\Scripts\ToTunel4.cs" />
+     <Compile Include="Assets\Scripts\WaterDecrease.cs" />
+     <Compile Include="Assets\Scripts\WaterIncrease.cs" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1CC0D38E-22B0-B8A2-CD1F-04B7892687DA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
